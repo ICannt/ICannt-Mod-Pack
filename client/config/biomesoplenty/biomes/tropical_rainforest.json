@@ -1,0 +1,10 @@
+{
+  "generators": {
+    "poison_ivy": {
+      "enable": false
+    },
+    "topaz": {
+      "enable": false
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "beachBiomeLocation": "minecraft:beaches",
+  "generators": {
+    "ruby": {
+      "enable": false
+    }
+  }
+}

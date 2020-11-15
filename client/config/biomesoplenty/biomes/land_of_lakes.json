@@ -1,0 +1,8 @@
+{
+  "beachBiomeLocation": "minecraft:beaches",
+  "generators": {
+    "malachite": {
+      "enable": false
+    }
+  }
+}

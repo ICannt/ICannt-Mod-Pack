@@ -1,0 +1,8 @@
+{
+  "beachBiomeLocation": "minecraft:beaches",
+  "generators": {
+    "peridot": {
+      "enable": false
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+	"dependencies": "thermalfoundation",
+	"populate": {
+		"mana-infused": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "thermalfoundation:ore",
+						"properties": {
+							"type": "mithril"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gold_ore",
+						"weight": 70
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 3
+			},
+			"cluster-count": 1,
+			"min-height": 1,
+			"max-height": 5,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "generators": {
+    "poison_lakes": {
+      "enable": false
+    },
+    "ruby": {
+      "enable": false
+    }
+  }
+}

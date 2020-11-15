@@ -1,0 +1,27 @@
+{
+	"dependencies": "bigreactors",
+	"populate": {
+		"bigreactors-yellorite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "bigreactors:oreyellorite"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 5
+			},
+			"cluster-count": 3,
+			"min-height": 1,
+			"max-height": 32,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{
+  "generators": {
+    "emerald": {
+      "enable": false
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "generators": {
+    "crystals": {
+      "enable": false
+    },
+    "amethyst": {
+      "enable": false
+    },
+    "biome_essence": {
+      "enable": false
+    }
+  }
+}

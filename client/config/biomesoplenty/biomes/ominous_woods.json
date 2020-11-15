@@ -1,0 +1,13 @@
+{
+  "generators": {
+    "poison_lakes": {
+      "enable": false
+    },
+    "malachite": {
+      "enable": false
+    },
+    "poison_ivy": {
+      "enable": false
+    }
+  }
+}

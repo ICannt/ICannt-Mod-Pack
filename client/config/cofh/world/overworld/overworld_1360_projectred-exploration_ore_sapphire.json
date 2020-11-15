@@ -1,0 +1,30 @@
+{
+	"dependencies": "projectred-exploration",
+	"populate": {
+		"projectred-exploration-sapphire": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "projectred-exploration:ore",
+					"properties": {
+						"type": "sapphire_ore"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 5
+			},
+			"cluster-count": 2,
+			"min-height": 17,
+			"max-height": 32,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

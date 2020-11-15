@@ -1,0 +1,153 @@
+{
+    "images":
+    {
+        "imp":
+        {
+            "image" : "imp:textures/gui/imp5imp.png",
+            "posX" : 0,
+            "posY" : -144,
+            "width" : 64,
+            "height" : 128,
+            "alignment" : "bottom_left"
+        },
+        "avatar":
+        {
+            "image" : "web:https://minotar.net/helm/#username#/32.png",
+            "posX" : 68,
+            "posY" : -14,
+            "width" : 12,
+            "height" : 12,
+            "alignment" : "bottom_left"
+        },
+        "title":
+        {
+            "image" : "imp:textures/gui/imptitlev2.png",
+            "posX" : -137,
+            "posY" : 30,
+            "width" : 256,
+            "height" : 64,
+            "alignment" : "top_center"
+        }
+    },    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -100,
+            "posY" : 48,
+            "width" : 200,
+            "height" : 20,
+            "imageWidth" : 400,
+            "imageHeight" : 40,
+            "texture" : "imp:textures/gui/buttons/200px.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : -100,
+            "posY" : 72,
+            "width" : 200,
+            "height" : 20,
+            "imageWidth" : 400,
+            "imageHeight" : 40,
+            "texture" : "imp:textures/gui/buttons/200px.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : -100,
+            "posY" : 96,
+            "width" : 200,
+            "height" : 20,
+            "imageWidth" : 400,
+            "imageHeight" : 40,
+            "texture" : "imp:textures/gui/buttons/200px.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : -100,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+            "imageWidth" : 196,
+            "imageHeight" : 40,
+            "texture" : "imp:textures/gui/buttons/98px.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 2,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+            "imageWidth" : 196,
+            "imageHeight" : 40,
+            "texture" : "imp:textures/gui/buttons/98px.png",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        }
+    },
+    "labels":
+    {
+        "imp":
+        {
+            "text" : "IMP 5.0.1",
+            "posX" : -43,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+        "login":
+        {
+            "text" : "Logged in as",
+            "posX" : 2,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+        "username":
+        {
+            "text" : "#username#",
+            "posX" : 83,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    "other":
+    {
+        "panorama":
+        {
+            "images" : "imp:textures/gui/pan/impstars_%c.png",
+            "animate" : true,
+            "animationSpeed" : 15,
+            "blur" : false,
+            "gradient" : false,
+            "synced" : true
+        }
+    }
+}

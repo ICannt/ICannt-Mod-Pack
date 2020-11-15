@@ -1,0 +1,27 @@
+{
+	"dependencies": "thaumcraft",
+	"populate": {
+		"thaumcraft-cinnabar": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thaumcraft:ore_cinnabar"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 3
+			},
+			"cluster-count": 18,
+			"min-height": 17,
+			"max-height": 64,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

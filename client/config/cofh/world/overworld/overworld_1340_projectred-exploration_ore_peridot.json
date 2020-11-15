@@ -1,0 +1,30 @@
+{
+	"dependencies": "projectred-exploration",
+	"populate": {
+		"projectred-exploration-peridot": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "projectred-exploration:ore",
+					"properties": {
+						"type": "peridot_ore"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 5
+			},
+			"cluster-count": 2,
+			"min-height": 37,
+			"max-height": 52,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

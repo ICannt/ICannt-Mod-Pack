@@ -1,0 +1,8 @@
+{
+  "beachBiomeLocation": "minecraft:beaches",
+  "generators": {
+    "poison_ivy": {
+      "enable": false
+    }
+  }
+}
